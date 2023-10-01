@@ -1,4 +1,4 @@
-# cars
+# Bun + Nestjs
 
 To install dependencies:
 
@@ -6,10 +6,28 @@ To install dependencies:
 bun install
 ```
 
-To run:
+To run tests:
 
 ```bash
-bun run index.ts
+bun test
+```
+
+To run development:
+
+```bash
+bun run dev
+```
+
+To run debug:
+
+```bash
+bun run debug
+```
+
+To run production:
+
+```bash
+bun run production
 ```
 
 This project was created using `bun init` in bun v1.0.3. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
